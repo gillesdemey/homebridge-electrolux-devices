@@ -16,7 +16,7 @@ import {
 import {Appliances} from './definitions/appliances';
 import {DEVICES} from './const/devices';
 import {ACCOUNTS_API_KEY} from './const/apiKey';
-import Gigya from 'gigya';
+import Gigya from '@gillesdemey/gigya';
 import { TokenResponse } from './definitions/auth';
 import { ElectroluxAccessoryController } from './accessories/controller';
 import { ElectroluxAccessory } from './accessories/accessory';

@@ -1,6 +1,6 @@
 {
     "displayName": "Homebridge Electrolux Devices",
-    "name": "homebridge-electrolux-devices",
+    "name": "@gillesdemey/homebridge-electrolux-devices",
     "version": "0.0.3",
     "description": "Homebridge plugin for Electrolux devices",
     "license": "Apache-2.0",
@@ -26,8 +26,8 @@
         "homebridge-plugin"
     ],
     "dependencies": {
+        "@gillesdemey/gigya": "^3.0.4",
         "axios": "^1.4.0",
-        "gigya": "^3.0.1",
         "js-base64": "^3.7.5",
         "lodash": "^4.17.21",
         "qs": "^6.11.2",
